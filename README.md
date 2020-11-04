@@ -27,7 +27,7 @@ Create the network<br>
 - output is in network.mat<br><br>
 
 Generate the embeddings<br>
-*python DeepWalk.py --d 64 --walks 10 --len 10 --window 3 -e -i network2.mat -emb embeddings.txt*
+*python DeepWalk.py --d 64 --walks 10 --len 10 --window 3 -e -i network.mat -emb embeddings.txt*
 - d is length of embedding
 - walks is number of random walks
 - Len is length of each walk

@@ -1,4 +1,4 @@
-function oneclass_fraud(inputfile, outputfile, num_users, th)
+function oneclass_svm(inputfile, outputfile, num_users, th)
 
 data = load(inputfile);
 indi = randi(size(data,1)+1,num_users,1);

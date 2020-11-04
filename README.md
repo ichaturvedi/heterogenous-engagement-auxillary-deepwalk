@@ -39,7 +39,7 @@ Generate the embeddings<br>
 Testing
 ---
 Predict accuracy of test users<br>
-*matlab -r network_regression(embeddings, networkfile, trainfile,testfile,num_neighbours)*
+*matlab -r network_regression(embeddings, networkfile, trainfile, testfile, num_neighbours)*
 - embeddings is generated from DeepWalk
 - networkfile is input to DeepWalk
 - trainfile is sequences for users in network

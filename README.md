@@ -29,11 +29,11 @@ Create the network<br>
 Generate the embeddings<br>
 *python DeepWalk.py --d 64 --walks 10 --len 10 --window 3 -e -i network2.mat -emb embeddings.txt*
 - d is length of embedding
--walks is number of random walks
--Len is length of each walk
--window is skip-chain window in each walk
--e save embeddings to file
--i is inputfile name
--emb is output embedding file name<br>
+- walks is number of random walks
+- Len is length of each walk
+- window is skip-chain window in each walk
+- e save embeddings to file
+- i is inputfile name
+- emb is output embedding file name<br>
 
 

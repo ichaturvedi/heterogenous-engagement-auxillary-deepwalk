@@ -9,8 +9,8 @@ https://github.com/apoorvavinod/DeepWalk_implementaion
 
 One Class SVM 
 ---
-Train the model
-matlab -r oneclass_svm(inputfile, outputfile, num_users, th)
+Train the model<br>
+*matlab -r oneclass_svm(inputfile, outputfile, num_users, th)*
 - inputfile is the click sequence
 - outputfile is after removing outlier sequences
 - num_users is number of users for training oneclass svm (slow for large number)

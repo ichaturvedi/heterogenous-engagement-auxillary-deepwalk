@@ -36,4 +36,17 @@ Generate the embeddings<br>
 - i is inputfile name
 - emb is output embedding file name<br>
 
+Testing
+---
+Predict accuracy of test users<br>
+*matlab -r network_regression(embeddings, networkfile, trainfile,testfile,num_neighbours)*
+- embeddings is generated from DeepWalk
+- networkfile is input to DeepWalk
+- trainfile is sequences for users in network
+- testfile is sequences for new users
+- num_neighbours is max edges for test user using highest covariance
+
+
+
+
 

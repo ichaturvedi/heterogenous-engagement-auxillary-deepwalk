@@ -15,3 +15,25 @@ Train the model<br>
 - outputfile is after removing outlier sequences
 - num_users is number of users for training oneclass svm (slow for large number)
 - th is the outlier threshold in oneclass svm
+
+
+
+Deep Walk Embeddings
+---
+Create the network<br>
+*matlab -r create_network(inputfile, num_neighbours)*
+- inputfile is the training sequences
+- num_neighbours is max edges for each user
+- output is in network.mat<br><br>
+
+Generate the embeddings<br>
+*python DeepWalk.py --d 64 --walks 10 --len 10 --window 3 -e -i network2.mat -emb embeddings.txt*
+- d is length of embedding
+-walks is number of random walks
+-Len is length of each walk
+-window is skip-chain window in each walk
+-e save embeddings to file
+-i is inputfile name
+-emb is output embedding file name<br>
+
+

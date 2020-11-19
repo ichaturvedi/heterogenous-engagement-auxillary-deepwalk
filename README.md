@@ -1,6 +1,6 @@
 Heterogenous Engagement Auxillary Deepwalk
 ===
-This code implements the model discussed in Heterogenous Engagement Auxillary Deepwalk. Video engagement is important in online advertisements where there is no physical interaction with a user. Videos shown in the same channel are likely to have a similar reviewer rating, hence we use graph embeddings to identify YouTube advertisements that are fraud or genuinely popular. 
+This code implements the model discussed in the paper _Heterogenous Engagement Auxillary Deepwalk_. Video engagement is important in online advertisements where there is no physical interaction with a user. Videos shown in the same channel are likely to have a similar reviewer rating, hence we use graph embeddings to identify YouTube advertisements that are fraud or genuinely popular. 
 
 Requirements
 ---

@@ -1,7 +1,7 @@
 function oneclass_svm(inputfile, outputfile, num_users, th)
 
 data = load(inputfile);
-indi = randi(size(data,1)+1,num_users,1);
+indi = randi(size(data,1),num_users,1);
 
 X = data(indi,3:end);
 Xall = data(:, 3:end);

@@ -47,6 +47,6 @@ Predict accuracy of test users<br>
 - num_neighbours is max edges for test user using highest covariance
 
 
-
+Paper Link : https://www.sciencedirect.com/science/article/pii/S0925231221013382?via%3Dihub
 
 

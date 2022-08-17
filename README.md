@@ -1,4 +1,4 @@
-Fake YouTube Views Detection[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?hashtags=deepwalk,clickfraud,heterogenous&url=https://github.com/ichaturvedi/heterogenous-engagement-auxillary-deepwalk)
+Fake YouTube Views Detection[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?hashtags=deepwalk,clickfraud,heterogenous,kdd,cikm&url=https://github.com/ichaturvedi/heterogenous-engagement-auxillary-deepwalk)
 ===
 This code implements the model discussed in the paper _Heterogenous Engagement Auxillary Deepwalk_. Video engagement is important in online advertisements where there is no physical interaction with a user. Videos shown in the same channel are likely to have a similar reviewer rating, hence we use graph embeddings to identify YouTube advertisements that are fraud or genuinely popular. 
 
